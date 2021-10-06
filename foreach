@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+    $students = array('Ahmed','Mohammed','Ali');
+    foreach($students as $student){
+        echo "<p>$student</p>";
+    }
+
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    foreach($age as $x => $val) {
+        echo "name: $x  ,  age: $val<br>";
+    }
+?>
+</body>
+</html>
